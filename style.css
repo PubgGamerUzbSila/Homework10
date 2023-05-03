@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: 'Poppins';
+    src:url(./fonts/Poppins-ExtraBold.ttf);}
+.cantainer{
+  
+    background-image: url(./img/backgroundimg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:1903px;
+    height: 3310px; 
+    
+   
+}
+.header{
+    width: 1903px;
+height: 840px;
+
+display: flex;
+
+}
+.logo_link{
+    margin: 50px 0 0 0;
+    
+}
+
+.header_left{
+    margin-left: 352px;
+    width: 473px;
+    height: 840px;
+    
+}
+.header_text_2{
+    margin-top: 29px;
+    width: 425px;
+    height: 68px;
+    font-family: 'TT Hoves';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+
+
+color: #333333;
+}
+.button_header{
+    margin-top: 25px;
+    width: 160px;
+height: 46px;
+left: 352px;
+top: 514px;
+font-family: 'TT Hoves';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+color: #FFFFFF;
+background: #E15252;
+border-radius: 42px;
+border: none;
+}
+.header_left_text_1{
+    margin-top: 190px;
+}
+.header_right{
+    margin-left: 127px;
+    width: 951px;
+    height: 840px;
+    
+}
+
+
+.nav{
+    width: 1903px;
+    height: 825px;
+    
+} 
+.nav_top_text1{
+    width: 497px;
+    height: 64px;
+    margin: 100px 0 0 703px;
+    font-family: 'TT Hoves';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 64px;
+
+
+/* Gray 1 */
+
+color: #333333;
+}
+.nav_top_text2{
+    font-family: 'TT Hoves';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+margin: 10px 0 0 853px;
+
+color: #E15252;
+}
+.nav_center_blok{
+    width: 1200px;
+    height: 362px;
+    margin: 140px 0 0 352px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between; 
+}
+.child{
+    width: 246px;
+    height: 362px;
+    
+}
+.aylana{
+    border: 12px solid #E15252;
+    border-radius: 50%;
+    margin-left: 11px;
+}
+.nav_center_big{
+    width: 246px;
+    height: 52px;
+    left: 352px;
+    top: 564px;
+    
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    
+    text-align: center;
+    
+    /* Gray 1 */
+    margin: 8px 0 10px;
+    color: #333333;
+}
+.nav_center_small{
+    width: 246px;
+height: 68px;
+left: 352px;
+top: 626px;
+
+font-family: 'TT Hoves';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+/* Gray 2 */
+
+color: #4F4F4F;
+}
+.nav_button{
+    width: 208px;
+height: 46px;
+left: 848px;
+top: 744px;
+
+background: #E15252;
+box-shadow: 0px 4px 20px rgba(225, 82, 82, 0.5);
+border-radius: 42px;
+
+left: 876px;
+top: 756px;
+border: none;
+font-family: 'TT Hoves';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+margin: 50px 0 0 848px;
+color: #FFFFFF;
+}
+.section{
+    width: 1903px;
+    height: 845px;
+    
+}
+.section_top_big_text{
+    margin: 50px 0 0 808px;
+    width: 286px;
+height: 64px;
+left: 808px;
+top: 50px;
+
+font-family: 'TT Hoves';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 64px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.section_top_small_text{
+    width: 154px;
+height: 18px;
+left: 874px;
+top: 124px;
+
+font-family: 'TT Hoves';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+text-align: center;
+
+/* Gray 1 */
+margin: 10px 0 0 874px;
+color: #333333;
+}
+.nav_bottom_blok{
+    width: 1200px;
+    height: 648px;
+    
+    display: flex;
+    margin: 50px 0 0 352px;
+}
+.nav_bottom_blok_small{
+    margin: 139px 0 0 30px;
+    width: 352px;
+    height: 370px;
+   
+}
+.stick{
+    width: 90px;
+height: 2px;
+left: 878px;
+top: 399px;
+margin-top: 22px;
+background: #E15252;
+border-radius: 1px;
+}
+.section_bottom_text{
+    width: 352px;
+height: 204px;
+left: 878px;
+top: 421px;
+
+font-family: 'TT Hoves';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+margin-top: 20px;
+/* Gray 2 */
+
+color: #4F4F4F;
+}
+.section_button{
+    width: 208px;
+height: 46px;
+left: 878px;
+top: 655px;
+
+background: #E15252;
+box-shadow: 0px 4px 20px rgba(225, 82, 82, 0.5);
+border-radius: 42px;
+font-family: 'TT Hoves';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+color: #FFFFFF;
+border: none;
+}
+.footer{
+    width: 1903px;
+    height: 845px;
+  
+}
+.footer_top_big_text{
+    width: 346px;
+height: 64px;
+
+font-family: 'TT Hoves';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 64px;
+text-align: center;
+margin: 100px 0 0 778px;
+color: #FFFFFF;
+}
+.footer_top_small_text{
+    margin: 10px 0 0 886px;
+    
+font-family: 'TT Hoves';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+
+/* identical to box height, or 18px */
+
+
+/* Gray 1 */
+
+color: #333333;
+}
+.footer_bottom_blok{
+    margin: 50px 0 0 462px;
+    width: 788px;
+    height: 374px;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.footer_blok_child1{
+    width: 374px;
+    height: 266px;
+  
+}
+.footer_blok_child2{
+    width: 314px;
+    height: 160px;
+    
+}
+.footer_input{
+    width: 374px;
+height: 56px;
+
+background: #FFFFFF;
+border-radius: 61px;
+margin-bottom: 14px;
+border: none;
+}
+.footer_button{
+    width: 168px;
+height: 56px;
+
+border: 3px solid #FFFFFF;
+border-radius: 61px;
+}
+.footer_blok_child2{
+    margin-top: 30px;
+}
+.foooter_stil{
+    margin-bottom: 30px;
+}
